@@ -35,9 +35,9 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
   <?php
   require_once __DIR__ . '/vendor/autoload.php';
 
-  use phpFCMv1\Client;
-  use phpFCMv1\Notification;
-  use phpFCMv1\Recipient;
+  use phpFCMSBv1\Client;
+  use phpFCMSBv1\Notification;
+  use phpFCMSBv1\Recipient;
   ```
 
 * Create Necessary class instances, Client, Recipient, Notification/Data
@@ -80,9 +80,9 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
   <?php
   require_once __DIR__ . '/vendor/autoload.php';
 
-  use phpFCMv1\Client;
-  use phpFCMv1\Notification;
-  use phpFCMv1\Recipient;
+  use phpFCMSBv1\Client;
+  use phpFCMSBv1\Notification;
+  use phpFCMSBv1\Recipient;
 
   $client = new Client('service_account.json');
   $recipient = new Recipient();
@@ -100,10 +100,10 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
   <?php
   require_once __DIR__ . '/vendor/autoload.php';
 
-  use phpFCMv1\Client;
-  use phpFCMv1\Config;
-  use phpFCMv1\Notification;
-  use phpFCMv1\Recipient;
+  use phpFCMSBv1\Client;
+  use phpFCMSBv1\Config;
+  use phpFCMSBv1\Notification;
+  use phpFCMSBv1\Recipient;
 
   $client = new Client('service_account.json');
   $recipient = new Recipient();
@@ -121,13 +121,13 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
 
   ```
   // Option Instance for Android
-  // Use phpFCMv1\AndroidConfig Class
+  // Use phpFCMSBv1\AndroidConfig Class
   $androidConfig = new Config\AndroidConfig();
   $androidConfig -> setPriority(Config\AndroidConfig::PRIORITY_HIGH);
   $client -> build($recipient, $notification, null, $androidConfig);
   
   // Option Instance for iOS (which is APNs header)
-  // Use phpFCMv1\APNsCOnfig Class
+  // Use phpFCMSBv1\APNsCOnfig Class
   $apnsConfig = new APNsConfig();
   $apnsConfig -> setPriority(APNsConfig::PRIORITY_HIGH);
   $client -> build($recipient, $notification, null, $apnsConfig);

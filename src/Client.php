@@ -6,10 +6,10 @@
  * Time: 18:58
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
 use \GuzzleHttp;
-use phpFCMv1\Config\CommonConfig;
+use phpFCMSBv1\Config\CommonConfig;
 
 class Client {
     const SEND_URL = 'https://fcm.googleapis.com/v1/projects/$0/messages:send';

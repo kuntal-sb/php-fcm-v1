@@ -6,11 +6,11 @@
  * Time: 22:42
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use phpFCMv1\Credentials;
+use phpFCMSBv1\Credentials;
 use PHPUnit\Framework\TestCase;
 
 class CredentialTest extends TestCase {

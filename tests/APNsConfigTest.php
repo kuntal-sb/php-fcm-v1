@@ -6,11 +6,11 @@
  * Time: 21:05
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use phpFCMv1\Config\APNsConfig;
+use phpFCMSBv1\Config\APNsConfig;
 use PHPUnit\Framework\TestCase;
 
 class APNsConfigTest extends TestCase {

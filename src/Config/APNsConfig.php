@@ -6,7 +6,7 @@
  * Time: 00:12
  */
 
-namespace phpFCMv1\Config;
+namespace phpFCMSBv1\Config;
 
 use DateInterval;
 use DateTime;

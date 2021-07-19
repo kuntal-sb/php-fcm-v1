@@ -6,11 +6,11 @@
  * Time: 20:29
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
 require_once __DIR__ . "/../vendor/autoload.php";
 
-use phpFCMv1\Config\AndroidConfig;
+use phpFCMSBv1\Config\AndroidConfig;
 use PHPUnit\Framework\TestCase;
 
 class AndroidConfigTest extends TestCase {

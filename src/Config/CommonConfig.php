@@ -6,7 +6,7 @@
  * Time: 00:04
  */
 
-namespace phpFCMv1\Config;
+namespace phpFCMSBv1\Config;
 
 
 interface CommonConfig {

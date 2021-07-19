@@ -6,7 +6,7 @@
  * Time: 18:41
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
 
 class Recipient extends Base {

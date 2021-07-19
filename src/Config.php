@@ -6,11 +6,11 @@
  * Time: 20:12
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
-use phpFCMv1\Config\AndroidConfig;
-use phpFCMv1\Config\APNsConfig;
-use phpFCMv1\Config\CommonConfig;
+use phpFCMSBv1\Config\AndroidConfig;
+use phpFCMSBv1\Config\APNsConfig;
+use phpFCMSBv1\Config\CommonConfig;
 
 class Config implements CommonConfig {
     const PRIORITY_HIGH = 1;

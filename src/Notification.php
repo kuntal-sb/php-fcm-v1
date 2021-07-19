@@ -6,7 +6,7 @@
  * Time: 18:42
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
 
 class Notification extends Base {

@@ -6,7 +6,7 @@
  * Time: 11:24
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
 abstract class Base {
     protected $payload;

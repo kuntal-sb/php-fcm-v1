@@ -6,15 +6,15 @@
  * Time: 14:00
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use phpFCMv1\Config\CommonConfig;
-use phpFCMv1\Data;
-use phpFCMv1\Client;
-use phpFCMv1\Notification;
-use phpFCMv1\Recipient;
+use phpFCMSBv1\Config\CommonConfig;
+use phpFCMSBv1\Data;
+use phpFCMSBv1\Client;
+use phpFCMSBv1\Notification;
+use phpFCMSBv1\Recipient;
 use \PHPUnit\Framework\TestCase;
 
 class FCMTest extends TestCase {
@@ -23,7 +23,7 @@ class FCMTest extends TestCase {
     const DEVICE_TOKEN = 'dswH6YqIC70:APA91bFaFQM_Jw-hoQAYDwXOVN8ifuIQ_GCpT26h7mt_Q-bYc4g-7q8vQqYD5ILAPwuPbU5uk2kbQtYRyDvnnLHvG3cLMcppN41ri4rYAV-Daf4QyCj4l0anuYS-mXTq1j_yanLvhlCJ';
 
     const TEST_TITLE = 'Testing from Code';
-    const TEST_BODY = 'Using phpFCMv1!';
+    const TEST_BODY = 'Using phpFCMSBv1!';
 
     public function testBuild() {
         $fcm = $this -> buildNotification(self::TEST_TITLE, self::TEST_BODY);

@@ -6,11 +6,11 @@
  * Time: 09:51
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
 require_once __DIR__ . '/../vendor/autoload.php';
 
-use phpFCMv1\Recipient;
+use phpFCMSBv1\Recipient;
 use PHPUnit\Framework\TestCase;
 
 class RecipientTest extends TestCase {

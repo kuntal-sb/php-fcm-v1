@@ -6,7 +6,7 @@
  * Time: 00:04
  */
 
-namespace phpFCMv1\Config;
+namespace phpFCMSBv1\Config;
 
 class AndroidConfig implements CommonConfig {
     const PRIORITY_HIGH = 'HIGH', PRIORITY_NORMAL = 'NORMAL';

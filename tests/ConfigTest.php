@@ -6,9 +6,9 @@
  * Time: 16:31
  */
 
-namespace phpFCMv1\tests;
+namespace phpFCMSBv1\tests;
 
-use phpFCMv1\Config;
+use phpFCMSBv1\Config;
 use \PHPUnit\Framework\TestCase;
 
 class ConfigTest extends TestCase {

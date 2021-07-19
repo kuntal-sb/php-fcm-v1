@@ -6,7 +6,7 @@
  * Time: 21:37
  */
 
-namespace phpFCMv1;
+namespace phpFCMSBv1;
 
 use \Firebase\JWT\JWT;
 use \GuzzleHttp;
