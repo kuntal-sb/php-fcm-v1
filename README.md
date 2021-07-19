@@ -1,12 +1,12 @@
 
-# php-fcm-v1
-[![Build Status](https://travis-ci.org/strivekp/php-fcm-v1.svg?branch=master)](https://travis-ci.org/strivekp/php-fcm-v1)
-[![codecov](https://codecov.io/gh/strivekp/php-fcm-v1/branch/master/graph/badge.svg)](https://codecov.io/gh/strivekp/php-fcm-v1)
-[![Latest Stable Version](https://poser.pugx.org/strivekp/php-fcm-v1/v/stable)](https://packagist.org/packages/strivekp/php-fcm-v1)
-[![Total Downloads](https://poser.pugx.org/strivekp/php-fcm-v1/downloads)](https://packagist.org/packages/strivekp/php-fcm-v1)
-[![License](https://poser.pugx.org/strivekp/php-fcm-v1/license)](https://packagist.org/packages/strivekp/php-fcm-v1)
+# phpfcmsb
+[![Build Status](https://travis-ci.org/strivekp/phpfcmsb.svg?branch=master)](https://travis-ci.org/strivekp/phpfcmsb)
+[![codecov](https://codecov.io/gh/strivekp/phpfcmsb/branch/master/graph/badge.svg)](https://codecov.io/gh/strivekp/phpfcmsb)
+[![Latest Stable Version](https://poser.pugx.org/strivekp/phpfcmsb/v/stable)](https://packagist.org/packages/strivekp/phpfcmsb)
+[![Total Downloads](https://poser.pugx.org/strivekp/phpfcmsb/downloads)](https://packagist.org/packages/strivekp/phpfcmsb)
+[![License](https://poser.pugx.org/strivekp/phpfcmsb/license)](https://packagist.org/packages/strivekp/phpfcmsb)
 
-php-fcm-v1 is an PHP implementation of [FCM](https://firebase.google.com/docs/cloud-messaging) HTTP v1 API
+phpfcmsb is an PHP implementation of [FCM](https://firebase.google.com/docs/cloud-messaging) HTTP v1 API
 
 ### What is different compared to others FCM Libraries?
 Most of other libraries are implementation of FCM's [Legacy HTTP Server Protocol](https://firebase.google.com/docs/cloud-messaging/http-server-ref). It requires a server key from Firebase console (which means you have to copy and paste in your code) ([Docs](https://firebase.google.com/docs/cloud-messaging/auth-server#authorize_legacy_protocol_send_requests))
@@ -26,7 +26,7 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
 * Install the library with composer
 
   ```
-  composer require strivekp/php-fcm-v1
+  composer require strivekp/phpfcmsb
   ```
 ****
 * Import the library with *autoload.php*

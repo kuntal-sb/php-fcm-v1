@@ -1,10 +1,10 @@
 {
-    "name": "strivekp/php-fcm-v1",
+    "name": "strivekp/phpfcmsb",
     "type": "library",
     "description": "PHP Implementation of FCM HTTP v1 API updte to use guzzle 7",
     "tags": ["php","notifications","google","android","gcm","ios","firebase","FCM","Firebase Cloud Messaging",
         "push notification"],
-    "homepage": "https://github.com/strivekp/phpFCMSBv1",
+    "homepage": "https://github.com/kuntal-sb/phpfcmsb",
     "license": "MIT",
     "authors": [
         {

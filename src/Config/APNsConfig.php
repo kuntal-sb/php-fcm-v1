@@ -78,7 +78,7 @@ class APNsConfig implements CommonConfig {
 
     /**
      * Path for PHP@7.2. Refer to the issue.
-     * https://github.com/strivekp/php-fcm-v1/issues/3
+     * https://github.com/strivekp/phpfcmsb/issues/3
      * @return string
      */
     private function roundUpMilliseconds() {
