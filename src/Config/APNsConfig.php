@@ -1,7 +1,7 @@
 <?php
 /**
  * Created by PhpStorm.
- * User: lkaybob
+ * User: strivekp
  * Date: 31/03/2018
  * Time: 00:12
  */
@@ -78,7 +78,7 @@ class APNsConfig implements CommonConfig {
 
     /**
      * Path for PHP@7.2. Refer to the issue.
-     * https://github.com/lkaybob/php-fcm-v1/issues/3
+     * https://github.com/strivekp/php-fcm-v1/issues/3
      * @return string
      */
     private function roundUpMilliseconds() {

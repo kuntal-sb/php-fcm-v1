@@ -1,10 +1,10 @@
 
 # php-fcm-v1
-[![Build Status](https://travis-ci.org/lkaybob/php-fcm-v1.svg?branch=master)](https://travis-ci.org/lkaybob/php-fcm-v1)
-[![codecov](https://codecov.io/gh/lkaybob/php-fcm-v1/branch/master/graph/badge.svg)](https://codecov.io/gh/lkaybob/php-fcm-v1)
-[![Latest Stable Version](https://poser.pugx.org/lkaybob/php-fcm-v1/v/stable)](https://packagist.org/packages/lkaybob/php-fcm-v1)
-[![Total Downloads](https://poser.pugx.org/lkaybob/php-fcm-v1/downloads)](https://packagist.org/packages/lkaybob/php-fcm-v1)
-[![License](https://poser.pugx.org/lkaybob/php-fcm-v1/license)](https://packagist.org/packages/lkaybob/php-fcm-v1)
+[![Build Status](https://travis-ci.org/strivekp/php-fcm-v1.svg?branch=master)](https://travis-ci.org/strivekp/php-fcm-v1)
+[![codecov](https://codecov.io/gh/strivekp/php-fcm-v1/branch/master/graph/badge.svg)](https://codecov.io/gh/strivekp/php-fcm-v1)
+[![Latest Stable Version](https://poser.pugx.org/strivekp/php-fcm-v1/v/stable)](https://packagist.org/packages/strivekp/php-fcm-v1)
+[![Total Downloads](https://poser.pugx.org/strivekp/php-fcm-v1/downloads)](https://packagist.org/packages/strivekp/php-fcm-v1)
+[![License](https://poser.pugx.org/strivekp/php-fcm-v1/license)](https://packagist.org/packages/strivekp/php-fcm-v1)
 
 php-fcm-v1 is an PHP implementation of [FCM](https://firebase.google.com/docs/cloud-messaging) HTTP v1 API
 
@@ -26,7 +26,7 @@ HTTP v1 API, in contrast, leverages OAuth2 security model. You need to get an ac
 * Install the library with composer
 
   ```
-  composer require lkaybob/php-fcm-v1
+  composer require strivekp/php-fcm-v1
   ```
 ****
 * Import the library with *autoload.php*
